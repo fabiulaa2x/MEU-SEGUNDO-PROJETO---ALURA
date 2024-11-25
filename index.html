@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Mansão dos Segredos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- Passo 1 -->
+        <div class="passo ativo" id="passo-1">
+            <h1>A Mansão dos Segredos</h1>
+            <p>Uma carta anônima chegou até você, convidando-o(a) a visitar uma mansão isolada. A promessa é de riquezas, mas com um aviso: “Nem todos que entram saem.” Você aceita o convite?</p>
+            <button class="btn-proximo" data-proximo="2">Aceitar o convite</button>
+            <button class="btn-proximo" data-proximo="3">Ignorar a carta</button>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="passo" id="passo-2">
+            <h1>A Caminho da Mansão</h1>
+            <p>Você dirige até a mansão à noite. Ao chegar, o portão range ao abrir, revelando um jardim sombrio. A porta da mansão está entreaberta. Você entra?</p>
+            <button class="btn-proximo" data-proximo="4">Entrar na mansão</button>
+            <button class="btn-proximo" data-proximo="5">Dar meia-volta</button>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="passo" id="passo-3">
+            <h1>A Escolha Segura</h1>
+            <p>Você ignora a carta e segue sua vida normalmente. No entanto, descobre no jornal que a mansão foi palco de eventos estranhos envolvendo desaparecimentos. Fim da história.</p>
+            <button class="btn-proximo" data-proximo="1">Recomeçar</button>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="passo" id="passo-4">
+            <h1>O Saguão</h1>
+            <p>Ao entrar, você se depara com um grande saguão iluminado por velas. Há duas portas: uma à esquerda e outra à direita. Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="6">Ir para a esquerda</button>
+            <button class="btn-proximo" data-proximo="7">Ir para a direita</button>
+        </div>
+
+        <!-- Passo 5 -->
+        <div class="passo" id="passo-5">
+            <h1>O Medo Vence</h1>
+            <p>Você decide que é melhor não arriscar e volta para casa. No entanto, sente que perdeu a chance de algo grande. Fim da história.</p>
+            <button class="btn-proximo" data-proximo="1">Recomeçar</button>
+        </div>
+
+        <!-- Passo 6 -->
+        <div class="passo" id="passo-6">
+            <h1>A Biblioteca</h1>
+            <p>Você encontra uma biblioteca cheia de livros antigos. Um deles está sobre a mesa, aberto em uma página com um mapa. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="8">Estudar o mapa</button>
+            <button class="btn-proximo" data-proximo="9">Ignorar o mapa e continuar explorando</button>
+        </div>
+
+        <!-- Passo 7 -->
+        <div class="passo" id="passo-7">
+            <h1>A Sala de Jantar</h1>
+            <p>A sala está preparada como se houvesse um banquete, mas não há ninguém por perto. Na mesa, há uma chave dourada e uma carta. Qual você pega?</p>
+            <button class="btn-proximo" data-proximo="10">Pegar a chave</button>
+            <button class="btn-proximo" data-proximo="11">Ler a carta</button>
+        </div>
+
+        <!-- Passo 8 -->
+        <div class="passo" id="passo-8">
+            <h1>O Mapa Misterioso</h1>
+            <p>O mapa aponta para uma sala secreta no porão da mansão. Você decide segui-lo.</p>
+            <button class="btn-proximo" data-proximo="12">Ir ao porão</button>
+        </div>
+
+        <!-- Passo 9 -->
+        <div class="passo" id="passo-9">
+            <h1>Surpresa na Biblioteca</h1>
+            <p>Enquanto você explora, uma parede se move, revelando uma passagem secreta. Você entra?</p>
+            <button class="btn-proximo" data-proximo="13">Entrar na passagem</button>
+            <button class="btn-proximo" data-proximo="14">Ignorar e voltar ao saguão</button>
+        </div>
+
+        <!-- Passo 10 -->
+        <div class="passo" id="passo-10">
+            <h1>A Chave</h1>
+            <p>Você pega a chave e percebe que ela combina com a fechadura de uma porta trancada no andar de cima.</p>
+            <button class="btn-proximo" data-proximo="15">Subir as escadas</button>
+        </div>
+
+        <!-- Passo 11 -->
+        <div class="passo" id="passo-11">
+            <h1>A Carta</h1>
+            <p>A carta revela que a mansão é cheia de armadilhas, mas também guarda um tesouro inestimável. Você decide continuar explorando.</p>
+            <button class="btn-proximo" data-proximo="4">Voltar ao saguão</button>
+        </div>
+
+        <!-- Passo 12 -->
+        <div class="passo" id="passo-12">
+            <h1>O Porão</h1>
+            <p>...</p>
+            <button class="btn-proximo" data-proximo="...">Continuar</button>
+        </div>
+
+        <!-- Passo 13 -->
+        <div class="passo" id="passo-13">
+            <h1>O Mistério da Alavanca</h1>
+            <p>Ao puxar a alavanca, uma porta secreta se abre revelando uma sala cheia de tesouros antigos. Porém, ao entrar, a porta se fecha atrás de você. No centro da sala, há um botão vermelho com um aviso: "Pressione para sair, mas renuncie ao tesouro".</p>
+            <button class="btn-proximo" data-proximo="15">Pressionar o botão</button>
+            <button class="btn-proximo" data-proximo="14">Ignorar o botão e tentar outra saída</button>
+        </div>
+
+        <!-- Passo 14 -->
+        <div class="passo" id="passo-14">
+            <h1>O Cofre</h1>
+            <p>Você tenta abrir o cofre e percebe que ele é protegido por um enigma. A pista está no símbolo no chão. Depois de resolver o enigma, o cofre se abre, revelando um livro antigo que contém os segredos da mansão. Mas o som do cofre ativa uma armadilha, e você precisa fugir.</p>
+            <button class="btn-proximo" data-proximo="15">Correr para a saída</button>
+        </div>
+
+        <!-- Passo 15 -->
+        <div class="passo" id="passo-15">
+            <h1>O Grande Final</h1>
+            <p>Você escapa da mansão com o livro ou renuncia ao tesouro pressionando o botão. A experiência deixa você mudado(a), e o mistério da mansão continua a assombrá-lo(a). Qual será o seu destino agora?</p>
+            <button class="btn-proximo" data-proximo="1">Recomeçar a história</button>
+        </div>
+    </main>
+
+    <script>
+        const botoes = document.querySelectorAll('.btn-proximo');
+        const passos = document.querySelectorAll('.passo');
+
+        botoes.forEach(botao => {
+            botao.addEventListener('click', () => {
+                const proximo = botao.getAttribute('data-proximo');
+                passos.forEach(passo => passo.classList.remove('ativo'));
+                document.getElementById(`passo-${proximo}`).classList.add('ativo');
+            });
+        });
+    </script>
+</body>
+</html>

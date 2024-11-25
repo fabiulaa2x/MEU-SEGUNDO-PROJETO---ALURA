@@ -1,0 +1,87 @@
+/* Configurações globais */
+body {
+    color: #ffffff;
+    background: linear-gradient(to right, #141E30, #243B55);
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Passos */
+.passo {
+    display: none;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.passo.ativo {
+    display: block;
+    animation: aparecer 0.5s ease-in-out;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Botões */
+button {
+    background: linear-gradient(to right, #243B55, #141E30);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1e90ff;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.8);
+}
+
+/* Cabeçalhos */
+h1 {
+    font-size: 28px;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #dddddd;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    button {
+        font-size: 16px;
+    }
+}
